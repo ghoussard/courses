@@ -1,0 +1,9 @@
+homme(paul), Oui
+femme(benoit), Non
+femme(X), germaine / christiane / simone / marie / sophie
+homme(X), albert / jean / paul / bertrand / louis / benoit
+mere(marie, sophie), Oui
+mere(marie, benoit), Non
+mere(X, jean), germaine
+pere(paul, X), bertrand / sophie
+pere(X,_), albert / jean / paul / louis

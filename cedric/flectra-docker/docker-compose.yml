@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  flectra:
+    image: flectrahq/flectra:latest
+    ports:
+      - 7073:7073
+  db:
+    image: postgres:9.4
+    environment:
+      POSTGRES_USER: flectra
+      POSTGRES_PASSWORD: flectra
